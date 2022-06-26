@@ -1,142 +1,142 @@
 doctype html
 head
   meta(charset='UTF-8')
-  meta(http-equiv='X-UA-Compatible', content='IE=edge')
-  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
   title 設計作品一覽|Linnea's Portfolio
-  link(rel='stylesheet', href='public/css/style.css')
-    // header start
-    // header>.container>h1{Ayn's Portfolio}+nav>ul>li*4>a[href="#"]{文字}
-body 
-  header.overflow-hidden
+  link(rel='stylesheet' href='public/css/style.css')
+// header start
+// header>.container>h1{Linnea's Portfolio}+nav>ul>li*4>a[href="#"]{文字}
+body
+    header.overflow-hidden
+        .container
+            a.icon-menu(href="#") Menu
+            h1
+                a(href='index.html') Linnea's Portfolio
+            nav
+                ul
+                    li
+                        a(href='about-us.html') 關於我
+                    li
+                        a(href='design-list.html') 平面設計
+                    li
+                        a(href='web-design-list.html') 網頁設計
+                    li
+                        a(href='contact-us.html') 聯絡我
+        // header end
+        // content start
     .container
-      a.icon-menu(href="#") Menu
-      h1
-        a(href='index.html') Linnea's Portfolio
-      nav
-        ul
-          li
-            a(href='about-us.html') 關於我
-          li
-            a(href='design-list.html') 平面作品
-          li
-            a(href='web-design-list.html') 網頁設計作品
-          li
-            a(href='contact-us.html') 聯絡我
-    // header end
-    // content start
-  .container
-    .row
-      ul.col-12.breadcrumb
-        li
-          a(href='index.html') 首頁 
-        li
-          a(href='design-list.html') 平面作品 
-      aside.col-12.col-md-3.col-lg-2
-          // ul>li*4>a.btn-primary{分類$$}
-        ul
-          li
-            a.btn-primary(href='') 全部
-          li
-             a.btn-primary(href='') 品牌設計
-          li
-             a.btn-primary(href='') 包裝設計
-          li
-            a.btn-primary(href='') 卡片設計
-      main.col-12.col-md-9.col-lg-10
         .row
-            // .col-4*6>img.img-fluid+a{商品標題}
-            // work start
-          .col-12.col4-md-4.text-center
-            a.img-wrap(href='#')
-              .img-overlay
-                img.img-fluid.img-rounded(src='https://placekitten.com/300/300', alt='')
-              span.icon-new NEW
-            a.text-primary(href='#') 作品標題
-            // work end
-            // work start
-          .col-12.col4-md-4.text-center
-            a.img-wrap(href='#')
-              .img-overlay
-                img.img-fluid.img-rounded(src='https://placekitten.com/300/300', alt='')
-                span.icon-new NEW
-            a.text-primary(href='#') 作品標題
-            // work end
-            // work start
-          .col-12.col4-md-4.text-center
-            a.img-wrap(href='#')
-              .img-overlay
-                img.img-fluid.img-rounded(src='https://placekitten.com/300/300', alt='')
-                span.icon-new NEW
-            a.text-primary(href='#') 作品標題
-            // work end
-            // work start
-          .col-12.col4-md-4.text-center
-            a.img-wrap(href='#')
-              .img-overlay
-                img.img-fluid.img-rounded(src='https://placekitten.com/300/300', alt='')
-                // <span class="icon-new">NEW</span>
-            a.text-primary(href='#') 作品標題
-            // work end
-            // work start
-          .col-12.col4-md-4.text-center
-            a.img-wrap(href='#')
-              .img-overlay
-                img.img-fluid.img-rounded(src='https://placekitten.com/300/300', alt='')
-                // <span class="icon-new">NEW</span>
-            a.text-primary(href='#') 作品標題
-            // work end
-            // work start
-          .col-12.col4-md-4.text-center
-            a.img-wrap(href='#')
-              .img-overlay
-                img.img-fluid.img-rounded(src='https://placekitten.com/300/300', alt='')
-                // <span class="icon-new">NEW</span>
-            a.text-primary(href='#') 作品標題
-            // work end
-    // content end
-    // footer>.container>.row>dl.col-3*5>dt{標題$$}+dd*4>a{項目$$}^^^p.copyright.text-center{copyright}
-  footer
-    .container
-      .row
-        dl.col-3
-          dt 標題01
-          dd
-            a(href='#') 項目01
-          dd
-            a(href='#') 項目02
-          dd
-            a(href='#') 項目03
-          dd
-            a(href='#') 項目04
-        dl.col-3
-          dt 標題02
-          dd
-            a(href='#') 項目01
-          dd
-            a(href='#') 項目02
-          dd
-            a(href='#') 項目03
-          dd
-            a(href='#') 項目04
-        dl.col-3
-          dt 標題03
-          dd
-            a(href='#') 項目01
-          dd
-            a(href='#') 項目02
-          dd
-            a(href='#') 項目03
-          dd
-            a(href='#') 項目04
-        dl.col-3
-          dt 標題04
-          dd
-            a(href='#') 項目01
-          dd
-            a(href='#') 項目02
-          dd
-            a(href='#') 項目03
-          dd
-            a(href='#') 項目04
-      p.copyright.text-center 本站僅供學習使用，不用於商業用途。
+            ul.col-12.breadcrumb
+                li
+                    a(href='index.html') 首頁
+                li
+                    a(href='design-list.html') 平面設計
+            aside.col-12.col-md-3.col-lg-2
+                // ul>li*4>a.btn-primary{分類$$}
+                ul
+                    li
+                        a.btn-primary(href='') 全部
+                    li
+                        a.btn-primary(href='') 品牌設計
+                    li
+                        a.btn-primary(href='') 包裝設計
+                    li
+                        a.btn-primary(href='') 插畫設計
+            main.col-12.col-md-9.col-lg-10
+                .row
+                    // .col-4*6>img.img-fluid+a{商品標題}
+                    // work start
+                    .col-12.col-md-4.text-center
+                        a.img-wrap(href='#')
+                            .img-overlay
+                                img.img-fluid.img-rounded(src='https://placekitten.com/300/200' alt='')
+                                span.icon-new NEW
+                        a.text-primary(href='#') 作品標題
+                    // work end
+                    // work start
+                    .col-12.col-md-4.text-center
+                        a.img-wrap(href='#')
+                            .img-overlay
+                                img.img-fluid.img-rounded(src='https://placekitten.com/300/200' alt='')
+                                span.icon-new NEW
+                        a.text-primary(href='#') 作品標題
+                    // work end
+                    // work start
+                    .col-12.col-md-4.text-center
+                        a.img-wrap(href='#')
+                            .img-overlay
+                                img.img-fluid.img-rounded(src='https://placekitten.com/300/200' alt='')
+                                span.icon-new NEW
+                        a.text-primary(href='#') 作品標題
+                    // work end
+                    // work start
+                    .col-12.col-md-4.text-center
+                        a.img-wrap(href='#')
+                            .img-overlay
+                                img.img-fluid.img-rounded(src='https://placekitten.com/300/200' alt='')
+                                // <span class="icon-new">NEW</span>
+                        a.text-primary(href='#') 作品標題
+                    // work end
+                    // work start
+                    .col-12.col-md-4.text-center
+                        a.img-wrap(href='#')
+                            .img-overlay
+                                img.img-fluid.img-rounded(src='https://placekitten.com/300/200' alt='')
+                                // <span class="icon-new">NEW</span>
+                        a.text-primary(href='#') 作品標題
+                    // work end
+                    // work start
+                    .col-12.col-md-4.text-center
+                        a.img-wrap(href='#')
+                            .img-overlay
+                                img.img-fluid.img-rounded(src='https://placekitten.com/300/200' alt='')
+                                // <span class="icon-new">NEW</span>
+                        a.text-primary(href='#') 作品標題
+                    // work end
+        // content end
+        // footer>.container>.row>dl.col-3*5>dt{標題$$}+dd*4>a{項目$$}^^^p.copyright.text-center{copyright}
+    footer
+      .container
+        .row
+          dl.col-12.col-md-3
+            dt 標題01
+            dd
+              a(href='#') 項目01
+            dd
+              a(href='#') 項目02
+            dd
+              a(href='#') 項目03
+            dd
+              a(href='#') 項目04
+          dl.col-12.col-md-3
+            dt 標題02
+            dd
+              a(href='#') 項目01
+            dd
+              a(href='#') 項目02
+            dd
+              a(href='#') 項目03
+            dd
+              a(href='#') 項目04
+          dl.col-12.col-md-3
+            dt 標題03
+            dd
+              a(href='#') 項目01
+            dd
+              a(href='#') 項目02
+            dd
+              a(href='#') 項目03
+            dd
+              a(href='#') 項目04
+          dl.col-12.col-md-3
+            dt 標題04
+            dd
+              a(href='#') 項目01
+            dd
+              a(href='#') 項目02
+            dd
+              a(href='#') 項目03
+            dd
+              a(href='#') 項目04
+        p.copyright.text-center 本站僅供學習使用，不用於商業用途。
