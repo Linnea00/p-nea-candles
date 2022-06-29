@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 蘋方體;
 }
 
 ul, ol {
@@ -23,7 +24,7 @@ body {
 }
 
 header {
-  background-color: #b5cdc4;
+  background-color: white;
 }
 
 header > .container h1 {
@@ -31,7 +32,11 @@ header > .container h1 {
 }
 
 header > .container h1 > a {
-  color: #008F8F;
+  color: #408080;
+}
+
+header > .container h1 > a > img {
+  height: 50px;
 }
 
 header > .container nav > ul {
@@ -39,9 +44,13 @@ header > .container nav > ul {
   /* justify-content: space-between; */
 }
 
+header > .container nav > ul > li {
+  margin-right: 30px;
+}
+
 header > .container nav > ul > li > a {
   line-height: 60px;
-  color: #008F8F;
+  color: #408080;
   font-size: 1.2em;
   letter-spacing: 2px;
 }
@@ -87,7 +96,7 @@ header > .container nav > ul > li > a {
 
   .submenu {
     position: absolute;
-    background-color: #b3dcc9;
+    background-color: white;
     width: 160%;
     left: 0px;
     top: 60px;
@@ -367,17 +376,23 @@ header > .container nav > ul > li > a {
 }
 
 .date {
-  color: #008F8F;
+  color: #408080;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 32px;
   margin: 60px auto 30px auto;
 }
 
 footer {
-  background: #008F8F;
+  background: #408080;
   padding: 40px 0 40px 0;
+}
+
+footer > nav > ul > li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 dt {
@@ -401,7 +416,7 @@ dd > a {
 }
 
 .breadcrumb a {
-  color: #008F8F;
+  color: #408080;
 }
 
 .w-20 {
@@ -413,9 +428,9 @@ dd > a {
 }
 
 .btn-primary {
-  background-color: #008F8F;
+  background-color: #408080;
   padding: 15px;
-  color: black;
+  color: #408080;
   display: block;
   margin-bottom: 5px;
   border-radius: 4px;
@@ -424,11 +439,11 @@ dd > a {
 
 .btn-primary:hover {
   background: black;
-  color: #008F8F;
+  color: #408080;
 }
 
 .text-primary {
-  color: #008F8F;
+  color: #408080;
 }
 
 .img-wrap {
@@ -470,7 +485,7 @@ dd > a {
   .icon-menu {
     width: 15%;
     display: block;
-    background-color: #008F8F;
+    background-color: #408080;
     color: #99bfb1;
     line-height: 60px;
     text-align: center;
@@ -508,7 +523,7 @@ dd > a {
   header > .container nav > ul > li {
     text-align: center;
     width: 100%;
-    border-bottom: 1px solid #008F8F;
+    border-bottom: 1px solid #408080;
   }
 
   header > .container nav > ul > li > a {
@@ -526,11 +541,11 @@ dd > a {
 
   .submenu > li {
     line-height: 60px;
-    border-bottom: 1px solid #008F8F;
+    border-bottom: 1px solid #408080;
   }
 
   .submenu > li > a {
-    color: #008F8F;
+    color: #408080;
     display: block;
   }
 }
