@@ -4,122 +4,54 @@ html
     meta(charset='UTF-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title Linnea's Portfolio
+    title Nea Candles
     link(rel='stylesheet', href='public/css/style.css')
   body
     header
       .container
-        .row.flex-space-between
+        .row.flex-row-start
           h1
-            a(href='index.html') Linnea's Portfolio
+            a(href='index.html') 
+              img(src="public/images/logo.png", alt="logo")
           a.icon-menu(href="#") Menu
           nav
             ul
               li
-                  a(href='about-us.html') 關於我
+                  a(href='about-us.html') 關於我們
               li
-                  a(href='#') 平面設計
+                  a(href='#') 最新消息
+              li
+                  a(href='#') 商品介紹
+              li
+                  a(href='contact-us.html') 聯絡我們
                   ul.submenu
                     li
-                      a(href="design-list.html") 品牌設計
+                      a(href="web-design-list.html") 聯絡表單
                     li
-                      a(href="design-list.html") 包裝設計
-              li
-                  a(href='#') 網頁設計
-                  ul.submenu
-                    li
-                      a(href="web-design-list.html") 品牌設計
-                    li
-                      a(href="web-design-list.html") 包裝設計
-              li
-                  a(href='contact-us.html') 聯絡我
+                      a(href="web-design-list.html") 門市資訊
     // header end
-    img.img-fluid(src='https://placekitten.com/1920/480', alt='')
+    img.img-fluid(src='public/images/index/bp01.jpg', alt='')
     // content start
-    // .container>h1{最新作品一覽}+.row
     .container
-        h2.fz-3.mb-3.text-center 最新作品一覽
+        h2.text-center 最新消息
         .row
-            .col-6.col-md-4.col-lg-3
-                a(href='#')
-                    img.img-fluid.img-rounded(src='https://placekitten.com/300/200', alt='')
-                p.title.text-center
-                    a(href='#') 作品標題
-                p.date.text-center 2022-6-15
-            .col-6.col-md-4.col-lg-3
-                a(href='#')
-                    img.img-fluid.img-rounded(src='https://placekitten.com/300/200', alt='')
-                p.title.text-center
-                    a(href='#') 作品標題
-                p.date.text-center 2022-6-15
-            .col-6.col-md-4.col-lg-3
-                a(href='#')
-                    img.img-fluid.img-rounded(src='https://placekitten.com/300/200', alt='')
-                p.title.text-center
-                    a(href='#') 作品標題
-                p.date.text-center 2022-6-15
-            .col-6.col-md-4.col-lg-3
-                a(href='#')
-                    img.img-fluid.img-rounded(src='https://placekitten.com/300/200', alt='')
-                p.title.text-center
-                    a(href='#') 作品標題
-                p.date.text-center 2022-6-15
-            .col-6.col-md-4.col-lg-3
-                a(href='#')
-                    img.img-fluid.img-rounded(src='https://placekitten.com/300/200', alt='')
-                p.title.text-center
-                    a(href='#') 作品標題
-                p.date.text-center 2022-6-15
-            .col-6.col-md-4.col-lg-3
-                a(href='#')
-                    img.img-fluid.img-rounded(src='https://placekitten.com/300/200', alt='')
-                p.title.text-center
-                    a(href='#') 作品標題
-                p.date.text-center 2022-6-15
-    // content end
+          .col-12.col-md-6 
+            img.img-fluid.img-rounded(src='https://placekitten.com/300/200', alt='')
+          .col-12.col-md-6 預告!即將推出日式鹽浴香氛蠟燭~
+
     // footer>.container>.row>dl.col-md-3*5>dt{標題$$}+dd*4>a{項目$$}^^^p.copyright.text-center{copyright}
     footer
       .container
-        .row
-          dl.col-12.col-md-3
-            dt 標題
-            dd
-              a(href='#') 項目01
-            dd
-              a(href='#') 項目02
-            dd
-              a(href='#') 項目03
-            dd
-              a(href='#') 項目04
-          dl.col-12.col-md-3
-            dt 標題
-            dd
-              a(href='#') 項目01
-            dd
-              a(href='#') 項目02
-            dd
-              a(href='#') 項目03
-            dd
-              a(href='#') 項目04
-          dl.col-12.col-md-3
-            dt 標題
-            dd
-              a(href='#') 項目01
-            dd
-              a(href='#') 項目02
-            dd
-              a(href='#') 項目03
-            dd
-              a(href='#') 項目04
-          dl.col-12.col-md-3
-            dt 標題
-            dd
-              a(href='#') 項目01
-            dd
-              a(href='#') 項目02
-            dd
-              a(href='#') 項目03
-            dd
-              a(href='#') 項目04
-            
-        p.copyright.text-center 本站僅供學習使用，不用於商業用途。
+        .row.sapce-between
+          nav
+            ul
+              li
+                a(href='#')
+                img.img-fluid.img-rounded(src='public/images/social-media/facebook.svg', alt='fb') 
+              li
+               a(href='#')
+               img.img-fluid.img-rounded(src='public/images/social-media/instagram.svg', alt='ig')
+              li
+               a(href='#')
+               img.img-fluid.img-rounded(src='public/images/social-media/line.svg', alt='line')    
+        p.copyright.text-center © 2022 Nea Candles. All Rights Reserved.
